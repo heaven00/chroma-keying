@@ -16,4 +16,23 @@ Even though you can check my results by simply doing,
         python run.py
         
 
-I did not try out more stuff around this, not enough motivation and I am a bit lazy. :)
+I did not try out more stuff around this, not enough motivation and I am a bit lazy. You will need to have OpenCV running on your machine. Just follow the instructions under requirements.
+
+REQUIREMENT
+-----------
+
+
+You need python 2.7, opencv, numpy & pandas running perfectly on your machine.
+
+For py 2.7, numpy, pandas its easier to just install Anaconda if you are on Windows, if you are on linux well I trust you already know what to do. :) :fingers_crosses:
+
+Now, to setup opencv get a [prebuilt version](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv) and install it using wheel.
+
+If you don't have wheel do
+
+    pip install wheel
+
+
+ and then install the downloaded python version using
+
+    pip install path/to/the/file.whl
