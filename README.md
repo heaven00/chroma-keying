@@ -7,6 +7,10 @@ The reason to choose green/blue for live chroma keying is because of the contras
 
 I have tried a very naive implementation just to see how it works out, and it did not work out very well I must say. The problem with computer vision is that a simple thing as lighting can affect  a lot. I was able to get bearable results with static image with a blue background. The boundary of the figure in the middle came out to be blurred, but live chroma keying has its own problems :(
 
+
+How To Use
+==========
+
 Even though you can check my results by simply doing,
 
         python run.py
